@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.row{
+  background-color:rgb(226, 219, 219);
+}
+
+.col{
+  padding-left: 0 !important;
+  max-width: max-content !important;
+}
+.sidebar {
+  width: 20vw;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgb(212, 202, 202);
+  color: black;
+  height: 100vh;
+}
+.MuiAvatar-root{
+  background-color: grey !important;
+}
+.MuiFormControl-root{
+  max-width: 9rem;
+  margin-left: 5px !important;
+}
+.MuiSelect-select.MuiSelect-select{
+  padding-bottom: 4px;
+}
+.MuiSelect-select.MuiSelect-select{
+  padding-right: 45px !important;
+}
+.spacer{
+  height: 24px;
+}
+.IconDiv{
+  text-align: end;
+  height: 0;
+  position:relative;
+  top:-5vh
+}
+.MuiSvgIcon-fontSizeLarge{
+  margin-left: 10px;
+}
+.TagEdit{
+    height: 0;
+    position: relative;
+    left: 98%;
+    top: -25px;
+}
+.h2Edit{
+  font-size: 2rem !important;
+}

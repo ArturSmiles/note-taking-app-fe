@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lato';
+    background:#666;
+  }
+   
+  *{
+    margin:0;
+    padding:0;
+  }
+   
+  .NoteH2 {
+    font-weight: bold !important;
+    font-size: 2rem !important;
+    text-align: center !important;
+    font-family: "Lato" !important;
+  }
+   
+  .NoteP {
+    font-size: 1rem!important;
+    font-weight: normal!important;
+    font-family: "Lato" !important;
+  }
+   
+  ul,li{
+    list-style:none!important;
+  }
+  .NoteUl{
+    display: flex!important;
+    flex-wrap: wrap!important;
+    justify-content: center!important;
+    overflow: hidden!important;
+  }
+  .NoteA{
+    text-decoration:none!important;
+    color:#000!important;
+    background:#ffc!important;
+    display:block!important;
+    height:90vh!important;
+    width:75vw!important;
+    padding:1em!important;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7)!important;
+  }
+  .NoteLi{
+    margin:1em!important;
+  }
+  .MuiChip-root{
+    margin-left: 5px!important;
+  }
+  .tDivider{
+    border: 1.5px solid rgba(0,0,0,.3)!important;
+  }
+  .MuiInputBase-input{
+    width: 70vw !important;
+  }
+  .MuiInputBase-NoteH2{
+    text-align: center !important;
+  }
+  .DoneDiv{
+    height: 0;
+    text-align: end;
+    position: relative;
+    top: -5%;
+  }
+  .addTagDiv{
+    height: 0;
+    text-align: end;
+    position: relative;
+  }
+.tagSelectAdd{
+  position: relative;
+  top: -20px;
+}
+.tagP{
+  display: flex;
+}
+.addTagDiv2{
+  height: 0;
+  text-align: end;
+  position: relative;
+}
